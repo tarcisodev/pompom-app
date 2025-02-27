@@ -45,8 +45,8 @@ const Menu: React.FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>Menu</IonListHeader>
-          <IonNote>hi@ionicframework.com</IonNote>
+          <IonListHeader>Pompom</IonListHeader>
+          <IonNote>contato@pompom.art.br</IonNote>
           {appPages.map((appPage, index) => (
             <IonMenuToggle key={index} autoHide={false}>
               <IonItem className={location.pathname === appPage.url ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
@@ -65,9 +65,9 @@ const Menu: React.FC = () => {
                 <IonItem routerLink="/folder/Zigoto" routerDirection="none" lines="none" detail={false}>
                   <IonLabel>Zigoto</IonLabel>
                 </IonItem>
-                <IonItem routerLink="/folder/Neofito" routerDirection="none" lines="none" detail={false}>
+                {/* <IonItem routerLink="/folder/Neofito" routerDirection="none" lines="none" detail={false}>
                   <IonLabel>Neófito</IonLabel>
-                </IonItem>
+                </IonItem> */}
               </div>
             </IonAccordion>
           </IonAccordionGroup>
