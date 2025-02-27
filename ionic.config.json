@@ -1,0 +1,7 @@
+{
+  "name": "pompom-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
